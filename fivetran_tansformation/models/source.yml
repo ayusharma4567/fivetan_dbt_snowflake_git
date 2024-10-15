@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: landing
+    database: pc_fivetran_db
+    schema: snowflake_db_source_schema
+    tables:
+      - name: earthquake
+        description: "raw data"
